@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/IMG_7097.JPG);
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.navbar ul li a {
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+.content {
+    width: 100%;
+    position:absolute;
+    top: 40%;
+}
+
+
+.left-col{
+   margin-left: 18%;
+
+
+
+}
+.left-col h1{
+    font-size: 60px;
+    color: lightgray;
+    line-height: 90px;
+    float: center;
+}
+
+#darkGrayOverlay {
+    background-color: #000;
+    background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png);
+    background-repeat: repeat;
+}
+#darkGrayOverlay {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow-x: hidden;
+}

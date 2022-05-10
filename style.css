@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    z-index: 0;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.navbar ul li a {
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+.content {
+    width: 100%;
+    position:absolute;
+    top: 60%;
+}
+
+
+.left-col{
+   margin-left: 18%;
+
+
+
+}
+.left-col h1{
+    font-size: 60px;
+    color: lightgray;
+    line-height: 90px;
+    float: center;
+}
+
+
+#darkGrayOverlay {
+    background-color: #000;
+    background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png);
+    background-repeat: repeat;
+  
+}
+#darkGrayOverlay {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow-x: hidden;
+    background-repeat: repeat;
+    
+}
+
+.lefttext {
+    margin-left: 5%;
+    margin-top: 10%;
+  
+
+
+}
+
+.lefttext h1 {
+    font-size: 30px;
+    line-height: 14px;
+    color: red;
+   
+
+}
+.lefttext p {
+    color: white;
+    
+    text-align: left;
+}
+
+video {
+position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+}
+
+hr {
+    border: 3px solid black;
+    width: 10%;
+}
+
+.about {
+    margin-top: 10%;
+    margin-left: 42%;
+}
+.about h1 {
+    font-size: 30px;
+    line-height: 14px;
+    color: red;
+}
+
+.abouttext {
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    line-height: 40px;
+    margin-right: 10%;
+}
+
+.contacttitle {
+    margin-top: 100px;
+    color: red;
+    text-transform: capitalize;
+    transition: all 4s ease-in-out;
+}
+
+.contacttitle h1{
+    font-size: 32px;
+    line-height: 10px;
+    margin-left: 40%;
+    
+
+}
+.contacttitle h2{
+    font-size: 16px;
+    margin-left: 41%;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    margin-left: 26%;
+    margin-right: 28%;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background-color: red;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.service h1 {
+    font-size: 45px;
+    color: red;
+    margin-left: 35%;
+}
+
+
+.service dt {
+    font-size: 28px ;
+    margin-left: 39%;
+    color: gold;
+    
+}
+.service dd {
+    font-size: 20px;
+    margin-left: 40%;
+    color: red;
+}
+
+.upc h1 {
+    font-size: 30px;
+    line-height: 14px;
+    color: red;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.upc p {
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+}
